@@ -1,0 +1,27 @@
+[
+    {
+        "id": 0,
+        "question": "What is the maximum subsidy for a car?",
+        "answer": "The basic subsidy for individuals is 30% of the Retail Price Before Taxes, up to a maximum of 9,000€."
+    },
+    {
+        "id": 1,
+        "question": "Is the purchase of a used electric vehicle subsidized?",
+        "answer": "No, 'Kinoumai Ilektrika III' exclusively concerns the purchase or long-term leasing of new vehicles."
+    },
+    {
+        "id": 2,
+        "question": "How much is the extra subsidy for scrapping?",
+        "answer": "Scrapping an old vehicle is rewarded with an additional 2,000€ for cars and 500€ for two-wheelers."
+    },
+    {
+        "id": 3,
+        "question": "What is considered a 'smart' home charger?",
+        "answer": "A charger that features communication protocols for energy management. The subsidy for its purchase is 500€."
+    },
+    {
+        "id": 4,
+        "question": "Where is the application submitted?",
+        "answer": "The application is submitted exclusively online at https://kinoumaiilektrika3.gov.gr using TaxisNet credentials."
+    }
+]

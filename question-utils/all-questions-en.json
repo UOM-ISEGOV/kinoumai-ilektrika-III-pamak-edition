@@ -1,0 +1,90 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question_text": "Which beneficiary category do you belong to?",
+      "options": [
+        {
+          "id": 1,
+          "option_text": "Natural Person (Individual)",
+          "next_step": 1,
+          "terminate": false,
+          "evidences": [
+            {"id": 1, "required_evidence": "Identity Card"},
+            {"id": 2, "required_evidence": "Tax Assessment Note"}
+          ]
+        },
+        {
+          "id": 2,
+          "option_text": "Legal Entity (Business)",
+          "next_step": 1,
+          "terminate": false,
+          "evidences": [
+            {"id": 3, "required_evidence": "GEMI Certificate (Current)"},
+            {"id": 4, "required_evidence": "E3 Form"},
+            {"id": 5, "required_evidence": "De Minimis Declaration"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "question_text": "What type of vehicle do you wish to acquire?",
+      "options": [
+        { "id": 1, "option_text": "Electric Car", "next_step": 2, "terminate": false },
+        { "id": 2, "option_text": "Electric Two-wheeler / Three-wheeler", "next_step": 2, "terminate": false },
+        { "id": 3, "option_text": "Electric Bicycle", "next_step": 2, "terminate": false }
+      ]
+    },
+    {
+      "id": 2,
+      "question_text": "How will you acquire the vehicle?",
+      "options": [
+        { "id": 1, "option_text": "Purchase", "next_step": 3, "terminate": false, "evidences": [{"id": 6, "required_evidence": "Official Offer / Purchase Invoice"}] },
+        { "id": 2, "option_text": "Leasing", "next_step": 3, "terminate": false, "evidences": [{"id": 7, "required_evidence": "Leasing Contract copy"}] }
+      ]
+    },
+    {
+      "id": 3,
+      "question_text": "Do you wish to proceed with the simultaneous withdrawal (scrapping) of an old vehicle?",
+      "options": [
+        { "id": 1, "option_text": "Yes", "next_step": 4, "terminate": false, "evidences": [{"id": 8, "required_evidence": "Old vehicle registration (pre-2015)"}] },
+        { "id": 2, "option_text": "No", "next_step": 4, "terminate": false }
+      ]
+    },
+    {
+      "id": 4,
+      "question_text": "Do you belong to any of the following special categories?",
+      "options": [
+        { "id": 1, "option_text": "Person with a Disability (PWD)", "next_step": 5, "terminate": false, "evidences": [{"id": 9, "required_evidence": "KEPA Certificate"}] },
+        { "id": 2, "option_text": "Large Family / Three-child Family", "next_step": 5, "terminate": false, "evidences": [{"id": 10, "required_evidence": "Family Status Certificate / ASPE"}] },
+        { "id": 3, "option_text": "Youth (18 to 29 years old)", "next_step": 5, "terminate": false },
+        { "id": 4, "option_text": "None of the above", "next_step": 5, "terminate": false }
+      ]
+    },
+    {
+      "id": 5,
+      "question_text": "Will you also purchase a 'Smart' Home Charger along with the vehicle?",
+      "options": [
+        { "id": 1, "option_text": "Yes", "next_step": 6, "terminate": false, "evidences": [{"id": 11, "required_evidence": "Charger CE Certificate"}] },
+        { "id": 2, "option_text": "No", "next_step": 6, "terminate": false }
+      ]
+    },
+    {
+      "id": 6,
+      "question_text": "Will you also purchase an extra battery?",
+      "options": [
+        { "id": 1, "option_text": "Yes", "next_step": 7, "terminate": false, "evidences": [{"id": 12, "required_evidence": "Proof of purchase for the additional battery and CE Certificate"}] },
+        { "id": 2, "option_text": "No", "next_step": 7, "terminate": false }
+      ]
+    },
+    {
+      "id": 7,
+      "question_text": "Is your permanent residence located in an Island Municipality?",
+      "options": [
+        { "id": 1, "option_text": "Yes", "next_step": null, "terminate": false, "evidences": [{"id": 12, "required_evidence": "Permanent Residence Certificate"}] },
+        { "id": 2, "option_text": "No", "next_step": null, "terminate": false }
+      ]
+    }
+  ]
+}

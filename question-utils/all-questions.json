@@ -1,0 +1,71 @@
+{
+  "questions": [
+    {
+      "id": 0,
+      "question_text": "Σε ποια κατηγορία δικαιούχου ανήκετε;",
+      "options": [
+        { "id": 1, "option_text": "Φυσικό Πρόσωπο", "next_step": 1, "terminate": false, "evidences": [{"id": 1, "required_evidence": "Ταυτότητα"}, {"id": 2, "required_evidence": "Εκκαθαριστικό"}] },
+        { "id": 2, "option_text": "Νομικό Πρόσωπο", "next_step": 1, "terminate": false, "evidences": [{"id": 3, "required_evidence": "Πιστοποιητικό ΓΕΜΗ"}, {"id": 4, "required_evidence": "Έντυπο Ε3"}] }
+      ]
+    },
+    {
+      "id": 1,
+      "question_text": "Τι είδους όχημα επιθυμείτε να αποκτήσετε;",
+      "options": [
+        { "id": 1, "option_text": "Ηλεκτρικό Αυτοκίνητο", "next_step": 2, "terminate": false },
+        { "id": 2, "option_text": "Ηλεκτρικό Δίκυκλο / Τρίκυκλο", "next_step": 2, "terminate": false },
+        { "id": 3, "option_text": "Ηλεκτρικό Ποδήλατο", "next_step": 2, "terminate": false }
+      ]
+    },
+    {
+      "id": 2,
+      "question_text": "Με ποιον τρόπο θα αποκτήσετε το όχημα;",
+      "options": [
+        { "id": 1, "option_text": "Αγορά", "next_step": 3, "terminate": false, "evidences": [{"id": 5, "required_evidence": "Επίσημη Προσφορά"}] },
+        { "id": 2, "option_text": "Χρονομίσθωση (Leasing)", "next_step": 3, "terminate": false, "evidences": [{"id": 6, "required_evidence": "Σύμβαση Leasing"}] }
+      ]
+    },
+    {
+      "id": 3,
+      "question_text": "Επιθυμείτε να προχωρήσετε σε ταυτόχρονη απόσυρση παλαιού οχήματος;",
+      "options": [
+        { "id": 1, "option_text": "Ναι", "next_step": 4, "terminate": false, "evidences": [{"id": 7, "required_evidence": "Άδεια κυκλοφορίας παλαιού οχήματος"}] },
+        { "id": 2, "option_text": "Όχι", "next_step": 4, "terminate": false }
+      ]
+    },
+    {
+      "id": 4,
+      "question_text": "Ανήκετε σε κάποια από τις παρακάτω ειδικές κατηγορίες;",
+      "options": [
+        { "id": 1, "option_text": "ΑμεΑ", "next_step": 5, "terminate": false, "evidences": [{"id": 8, "required_evidence": "Γνωμάτευση ΚΕΠΑ"}] },
+        { "id": 2, "option_text": "Πολύτεκνος / Τρίτεκνος", "next_step": 5, "terminate": false, "evidences": [{"id": 9, "required_evidence": "Πιστοποιητικό ΑΣΠΕ"}] },
+        { "id": 3, "option_text": "Νέος (18-29 ετών)", "next_step": 5, "terminate": false },
+        { "id": 4, "option_text": "Καμία", "next_step": 5, "terminate": false }
+      ]
+    },
+    {
+      "id": 5,
+      "question_text": "Θα αγοράσετε και smart Οικιακό Φορτιστή;",
+      "options": [
+        { "id": 1, "option_text": "Ναι", "next_step": 6, "terminate": false, "evidences": [{"id": 10, "required_evidence": "Πιστοποιητικό CE φορτιστή"}] },
+        { "id": 2, "option_text": "Όχι", "next_step": 6, "terminate": false }
+      ]
+    },
+   {
+      "id": 6,
+      "question_text": "Θα προμηθευτείτε και έξτρα μπαταρία;",
+      "options": [
+        { "id": 1, "option_text": "Ναι", "next_step": 7, "terminate": false, "evidences": [{"id": 12, "required_evidence": "Απόδειξη αγοράς επιπλέον μπαταρίας και Πιστοποιητικό CE"}] },
+        { "id": 2, "option_text": "Όχι", "next_step": 7, "terminate": false }
+      ]
+    },
+    {
+      "id": 7,
+      "question_text": "Η μόνιμη κατοικία σας βρίσκεται σε Νησιωτικό Δήμο;",
+      "options": [
+        { "id": 1, "option_text": "Ναι", "next_step": null, "terminate": false, "evidences": [{"id": 11, "required_evidence": "Βεβαίωση Μόνιμης Κατοικίας"}] },
+        { "id": 2, "option_text": "Όχι", "next_step": null, "terminate": false }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+    "PublicService": {
+        "name": "Kinoumai Ilektrika III",
+        "evidence": [
+            {
+                "id": 1,
+                "evs": [
+                    {
+                        "id": "ev0001",
+                        "type": "Evidence",
+                        "name": "Proof of Purchase / Official Offer",
+                        "description": "Official offer or proof of purchase of the electric vehicle from the dealer."
+                    },
+                    {
+                        "id": "ev0002",
+                        "type": "Evidence",
+                        "name": "Solemn Declaration (Law 1599/1986)",
+                        "description": "Declaration by the beneficiary that the same vehicle is not subsidized by another financial program."
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "evs": [
+                    {
+                        "id": "ev0003",
+                        "type": "Evidence",
+                        "name": "Proof of Identity",
+                        "description": "Copy of ID Card or Passport (Not required if identification is done via TAXISnet)."
+                    },
+                    {
+                        "id": "ev0004",
+                        "type": "Evidence",
+                        "name": "Income Tax Clearance Certificate",
+                        "description": "Copy of the Income Tax Clearance Certificate for the last tax year."
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "evs": [
+                    {
+                        "id": "ev0005",
+                        "type": "Evidence",
+                        "name": "Company Legal Documents",
+                        "description": "Valid representation certificate from GEMI, E3 form of the last tax year, and AADE business commencement certificate."
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "evs": [
+                    {
+                        "id": "ev0006",
+                        "type": "Evidence",
+                        "name": "Vehicle Scrapping Documents",
+                        "description": "Vehicle registration certificate of the vehicle to be scrapped and proof of payment of circulation taxes."
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "evs": [
+                    {
+                        "id": "ev0007",
+                        "type": "Evidence",
+                        "name": "KEPA Medical Certificate",
+                        "description": "Valid Disability Certification medical opinion from KEPA, certifying the condition."
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "evs": [
+                    {
+                        "id": "ev0008",
+                        "type": "Evidence",
+                        "name": "Large/Three-Child Family Certificate",
+                        "description": "Recent Certificate of Family Status and ASPE Certificate."
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "evs": [
+                    {
+                        "id": "ev0009",
+                        "type": "Evidence",
+                        "name": "Smart Charger Documents",
+                        "description": "CE certificate of the charger and Solemn Declaration of the Electrician Installer."
+                    }
+                ]
+            },
+            {
+                "id": 8,
+                "evs": [
+                    {
+                        "id": "ev0010",
+                        "type": "Evidence",
+                        "name": "Certificate of Permanent Residence",
+                        "description": "Certificate of Permanent Residence from the Island Municipality (issued via gov.gr)."
+                    }
+                ]
+            },
+            {
+                "id": 9,
+                "evs": [
+                    {
+                        "id": "ev0011",
+                        "type": "Evidence",
+                        "name": "Leasing Agreement",
+                        "description": "Copy of the leasing agreement (at least 36 months) with a clear clause for the purchase of the vehicle at the end of it."
+                    }
+                ]
+            },
+            {
+                "id": 10,
+                "evs": [
+                    {
+                        "id": "ev0012",
+                        "type": "Evidence",
+                        "name": "Second Battery Documents",
+                        "description": "Proof of purchase for the additional battery and CE technical characteristics certificate."
+                    }
+                ]
+            }
+        ],
+        "criterion_requirements": [
+            {
+                "id": "cr0001",
+                "name": "The purchase or lease must be for a purely electric vehicle (not a hybrid)."
+            }
+        ]
+    }
+}
